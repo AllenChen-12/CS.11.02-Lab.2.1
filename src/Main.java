@@ -14,11 +14,11 @@ public class Main {
 
     // 1. add
     public static int add(int a, int b) {
-        return a + b;
+        return a+b;
     }
     // 2. add
     public static int add(int a, int b, int c, int d) {
-        return a + b + c + d;
+        return a+b+c+d;
     }
     // 3. morningGreeting
     public static String morningGreeting(String name) {
@@ -31,12 +31,12 @@ public class Main {
     }
     // 5. triple
     public static int triple(int x) {
-        return x + x + x;
+        return x*3;
     }
 
     // 6. half
     public static double half(double x) {
-        return x / 2;
+        return x/2;
     }
     // 7. roundPositiveValueToNearestInteger
     public static int roundPositiveValueToNearestInteger(double x) {
@@ -44,7 +44,7 @@ public class Main {
     }
     // 8. roundNegativeValueToNearestInteger
     public static int roundNegativeValueToNearestInteger(double x) {
-        return (int) Math.round(x - 0.01);
+        return (int) Math.round(x-0.01);
     }
 
 }
