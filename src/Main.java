@@ -17,11 +17,11 @@ public class Main {
         return a + b;
     }
     // 2. add
-public static int add(int a, int b, int c, int d) {
+    public static int add(int a, int b, int c, int d) {
         return a + b + c + d;
     }
     // 3. morningGreeting
-public static String morningGreeting(String name) {
+    public static String morningGreeting(String name) {
         return "早上好, " + name + "!";
     }
 
@@ -35,11 +35,11 @@ public static String morningGreeting(String name) {
     }
 
     // 6. half
-public static double half(double x) {
+    public static double half(double x) {
         return x / 2;
     }
     // 7. roundPositiveValueToNearestInteger
-public static int roundPositiveValueToNearestInteger(double x) {
+    public static int roundPositiveValueToNearestInteger(double x) {
         return (int) Math.round(x);
     }
     // 8. roundNegativeValueToNearestInteger
